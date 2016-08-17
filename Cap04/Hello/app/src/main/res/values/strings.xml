@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cap04-Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="title_main_activity">Login</string>
+    <string name="title_bem_vindo_activity">Bem Vindo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_bem_vindo2">Bem Vindo</string>
+</resources>
