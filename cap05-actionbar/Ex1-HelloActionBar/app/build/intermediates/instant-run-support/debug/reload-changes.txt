@@ -1,0 +1,3 @@
+CHANGED,C:\Users\Roberto\Desktop\cap05-actionbar\Ex1-HelloActionBar\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\br\com\livroandroid\actionbar\R$id$override.class
+CHANGED,C:\Users\Roberto\Desktop\cap05-actionbar\Ex1-HelloActionBar\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\Roberto\Desktop\cap05-actionbar\Ex1-HelloActionBar\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\br\com\livroandroid\actionbar\MainActivity$override.class

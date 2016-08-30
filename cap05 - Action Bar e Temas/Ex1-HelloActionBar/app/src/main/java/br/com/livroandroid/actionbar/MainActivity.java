@@ -25,8 +25,25 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Infla o menu com os botões da action bar
         getMenuInflater().inflate(R.menu.menu_main, menu);
-
+        MenuItem item = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) item.getActionView();
+        searchView.setOnQueryTextListener(onSearch());
         return true;
+    }
+
+    private SearchView.OnQueryTextListener onSearch() {
+        return new SearchView.OnQueryTextListener(){
+            @Override
+            public boolean onQueryTextSubmit(String query){
+                toast("Buscar o texto: " + query);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText){
+                return false;
+            }
+        };
     }
 
     @Override

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_play_for_work_white_48dp.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-xxhdpi\\ic_play_for_work_white_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_share.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_refresh.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_search.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_send_black_48dp.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-xxhdpi\\ic_send_black_48dp.png"
+    }
+]

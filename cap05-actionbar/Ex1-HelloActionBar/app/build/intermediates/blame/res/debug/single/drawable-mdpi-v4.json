@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_send_black_48dp.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-mdpi\\ic_send_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_play_for_work_white_48dp.png",
+        "source": "C:\\Users\\Roberto\\Desktop\\cap05-actionbar\\Ex1-HelloActionBar\\app\\src\\main\\res\\drawable-mdpi\\ic_play_for_work_white_48dp.png"
+    }
+]
