@@ -25,9 +25,15 @@ public class MainActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Infla o menu com os botões da action bar
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        //SearchView
         MenuItem item = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) item.getActionView();
         searchView.setOnQueryTextListener(onSearch());
+
+        //ShareActionProvider
+        MenuItem shareItem = menu.findItem(R.id.action_share);
+        ShareActionProvider share = (ShareActionProvider) shareItem.getActionProvider();
+        share.setShareIntent(getDefaultIntent());
         return true;
     }
 
@@ -44,6 +50,13 @@ public class MainActivity extends Activity {
                 return false;
             }
         };
+    }
+
+    private Intent getDefaultIntent() {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("text/*");
+        intent.putExtra(Intent.EXTRA_TEXT, "Texto para compartilhar");
+        return intent;
     }
 
     @Override
