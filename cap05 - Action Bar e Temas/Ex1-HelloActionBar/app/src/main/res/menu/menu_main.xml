@@ -5,14 +5,14 @@
         android:id="@+id/action_confirmar"
         android:title="Ok"
         android:icon="@drawable/ic_play_for_work_white_48dp"
-        android:showAsAction="always"/>
+        android:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/action_search"
         android:icon="@drawable/ic_action_search"
         android:title="@string/action_search"
-        android:showAsAction="always"
-        android:actionViewClass="android.widget.SearchView"/>
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
 
     <item
         android:id="@+id/action_refresh"
@@ -29,8 +29,7 @@
         android:id="@+id/action_share"
         android:icon="@drawable/ic_action_share"
         android:title="@string/action_share"
-        android:showAsAction="always"
-        android:actionProviderClass="android.widget.ShareActionProvider"/>
-
+        android:showAsAction="ifRoom"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
 
 </menu>
