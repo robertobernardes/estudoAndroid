@@ -1,8 +1,8 @@
 package br.com.livroandroid.actionbar;
 
-import android.app.ActionBar;
-import android.app.FragmentTransaction;
 import android.content.Context;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.widget.Toast;
 
 public class MyTabListener implements ActionBar.TabListener {

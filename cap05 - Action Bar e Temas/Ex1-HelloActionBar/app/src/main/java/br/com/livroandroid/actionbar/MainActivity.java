@@ -1,23 +1,24 @@
 package br.com.livroandroid.actionbar;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.SearchView;
+import android.support.v7.widget.ShareActionProvider;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.SearchView;
-import android.widget.ShareActionProvider;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ActionBar actionBar = getActionBar();
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Capítulo 5");
 
         //Configura a action bar para utilizar as tabs
@@ -33,13 +34,13 @@ public class MainActivity extends Activity {
         // Infla o menu com os botões da action bar
         getMenuInflater().inflate(R.menu.menu_main, menu);
         //SearchView
-        MenuItem item = menu.findItem(R.id.action_search);
-        SearchView searchView = (SearchView) item.getActionView();
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
         searchView.setOnQueryTextListener(onSearch());
 
         //ShareActionProvider
         MenuItem shareItem = menu.findItem(R.id.action_share);
-        ShareActionProvider share = (ShareActionProvider) shareItem.getActionProvider();
+        ShareActionProvider share = (ShareActionProvider) MenuItemCompat.getActionProvider(shareItem);
         share.setShareIntent(getDefaultIntent());
         return true;
     }
